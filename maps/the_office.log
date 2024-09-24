@@ -1,0 +1,189 @@
+hlcsg v3.4 VL33 (Feb  2 2014)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlcsg -----
+Command line: "C:/Program Files/J.A.C.K/halflife/hlcsg.exe" "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\phoenix\maps\the_office" 
+Arguments: "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\phoenix\maps\the_office" -low -wadautodetect 
+Entering C:\Program Files (x86)\Steam\steamapps\common\Half-Life\phoenix\maps\the_office.map
+
+Current hlcsg Settings
+Name                 |  Setting  |  Default
+---------------------|-----------|-------------------------
+threads               [       4 ] [  Varies ]
+verbose               [     off ] [     off ]
+log                   [      on ] [      on ]
+reset logfile         [      on ] [      on ]
+developer             [       0 ] [       0 ]
+chart                 [     off ] [     off ]
+estimate              [     off ] [     off ]
+max texture memory    [ 33554432 ] [ 33554432 ]
+max lighting memory   [ 50331648 ] [ 50331648 ]
+priority              [     Low ] [  Normal ]
+
+noclip                [     off ] [     off ]
+null texture stripping[      on ] [      on ]
+clipnode economy mode [     off ] [     off ]
+clip hull type        [  simple ] [  simple ]
+onlyents              [     off ] [     off ]
+wadtextures           [      on ] [      on ]
+skyclip               [      on ] [      on ]
+hullfile              [    None ] [    None ]
+wad configuration file[    None ] [    None ]
+wad.cfg group name    [    None ] [    None ]
+nullfile              [    None ] [    None ]
+nullify trigger       [      on ] [      on ]
+min surface area      [   0.000 ] [   0.000 ]
+brush union threshold [   0.000 ] [   0.000 ]
+map scaling           [    None ] [    None ]
+light name optimize   [      on ] [      on ]
+UTF8 game_text        [      on ] [      on ]
+
+Using mapfile wad configuration
+Wadfiles not in use by the map will be excluded
+Wadinclude list :
+[zhlt.wad]
+
+CreateBrush:
+ (0.02 seconds)
+CSGBrush:
+ (0.06 seconds)
+
+added 10 additional animating textures.
+Using Wadfile: \Program Files (x86)\Steam\steamapps\common\Half-Life\valve\halflife.wad
+ - Contains 26 used textures, 78.79 percent of map (3116 textures in wad)
+Using Wadfile: \Program Files (x86)\Steam\steamapps\common\Half-Life\valve\xeno.wad
+ - Contains 1 used texture, 3.03 percent of map (264 textures in wad)
+Using Wadfile: \Program Files (x86)\Steam\steamapps\common\Half-Life\valve\decals.wad
+ - Contains 6 used textures, 18.18 percent of map (222 textures in wad)
+
+Wad files required to run the map: "halflife.wad;xeno.wad;decals.wad;"
+Texture usage is at 0.22 mb (of 32.00 mb MAX)
+0.40 seconds elapsed
+
+-----   END   hlcsg -----
+
+
+
+hlbsp v3.4 VL33 (Feb  2 2014)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlbsp -----
+Command line: "C:/Program Files/J.A.C.K/halflife/hlbsp.exe" "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\phoenix\maps\the_office" 
+Arguments: "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\phoenix\maps\the_office" -low -chart 
+
+Current hlbsp Settings
+Name               |  Setting  |  Default
+-------------------|-----------|-------------------------
+threads             [       4 ] [  Varies ]
+verbose             [     off ] [     off ]
+log                 [      on ] [      on ]
+developer           [       0 ] [       0 ]
+chart               [      on ] [     off ]
+estimate            [     off ] [     off ]
+max texture memory  [ 33554432 ] [ 33554432 ]
+priority            [     Low ] [  Normal ]
+
+noclip              [     off ] [     off ]
+nofill              [     off ] [     off ]
+noinsidefill        [     off ] [     off ]
+noopt               [     off ] [     off ]
+no clipnode merging [     off ] [     off ]
+null tex. stripping [      on ] [      on ]
+notjunc             [     off ] [     off ]
+nobrink             [     off ] [     off ]
+subdivide size      [     240 ] [     240 ] (Min 64) (Max 512)
+max node size       [    1024 ] [    1024 ] (Min 64) (Max 65536)
+remove hull 2       [     off ] [     off ]
+
+
+SolidBSP [hull 0] Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (233,263,40)-(255,268,57) in hull 0 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+269 (0.06 seconds)
+BSP generation successful, writing portal file 'C:\Program Files (x86)\Steam\steamapps\common\Half-Life\phoenix\maps\the_office.prt'
+SolidBSP [hull 1] Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (236,247,76)-(271,252,93) in hull 1 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (217,250,88)-(236,252,93) in hull 1 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+146 (0.02 seconds)
+SolidBSP [hull 2] Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (201,234,84)-(256,236,89) in hull 2 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+136 (0.01 seconds)
+SolidBSP [hull 3] Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (236,247,58)-(271,252,75) in hull 3 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (217,250,70)-(236,252,75) in hull 3 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+147 (0.02 seconds)
+Reduced 472 clipnodes to 453
+Reduced 174 texinfos to 140
+Reduced 33 texdatas to 33 (1456 bytes to 1456)
+Reduced 1484 planes to 360
+FixBrinks:
+Increased 453 clipnodes to 455.
+
+Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
+------------  ---------------  ---------------  --------
+models              8/512          512/32768    ( 1.6%)
+planes            360/32768       7200/655360   ( 1.1%)
+vertexes         1050/65535      12600/786420   ( 1.6%)
+nodes             309/32767       7416/786408   ( 0.9%)
+texinfos          140/32767       5600/1310680  ( 0.4%)
+faces             824/65535      16480/1310700  ( 1.3%)
+* worldfaces      812/32768          0/0        ( 2.5%)
+clipnodes         455/32767       3640/262136   ( 1.4%)
+leaves            205/32760       5740/917280   ( 0.6%)
+* worldleaves     162/8192           0/0        ( 2.0%)
+marksurfaces     1113/65535       2226/131070   ( 1.7%)
+surfedges        3804/512000     15216/2048000  ( 0.7%)
+edges            1906/256000      7624/1024000  ( 0.7%)
+texdata          [variable]       1456/33554432 ( 0.0%)
+lightdata        [variable]          0/50331648 ( 0.0%)
+visdata          [variable]          0/8388608  ( 0.0%)
+entdata          [variable]       3615/2097152  ( 0.2%)
+* AllocBlock        4/64             0/0        ( 6.3%)
+33 textures referenced
+=== Total BSP file data space used: 89325 bytes ===
+Wad files required to run the map: "halflife.wad;xeno.wad;decals.wad;"
+0.29 seconds elapsed
+
+-----   END   hlbsp -----
+
+
+
+hlvis v3.4 VL33 (Feb  2 2014)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlvis -----
+Command line: "C:/Program Files/J.A.C.K/halflife/hlvis.exe" "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\phoenix\maps\the_office" 
+Arguments: "C:\Program Files (x86)\Steam\steamapps\common\Half-Life\phoenix\maps\the_office" -low 
+ 162 portalleafs
+ 463 numportals
+
+-= Current hlvis Settings =-
+Name               |  Setting  |  Default
+-------------------|-----------|-------------------------
+threads             [       4 ] [  Varies ]
+verbose             [     off ] [     off ]
+log                 [      on ] [      on ]
+developer           [       0 ] [       0 ]
+chart               [     off ] [     off ]
+estimate            [     off ] [     off ]
+max texture memory  [ 33554432 ] [ 33554432 ]
+max vis distance    [       0 ] [       0 ]
+priority            [     Low ] [  Normal ]
+
+fast vis            [     off ] [     off ]
+full vis            [     off ] [     off ]
+
+
+BasePortalVis:
+ (0.01 seconds)
+LeafThread:
+ (0.79 seconds)
+average leafs visible: 67
+g_visdatasize:2976  compressed from 3402
+0.82 seconds elapsed
+
+-----   END   hlvis -----
+
+
+
